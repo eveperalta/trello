@@ -1,12 +1,14 @@
-function t(x){return document.getElementById(btnInicio);} 
-var lista=[]; 
-function almacenar(){ 
-    lista.push({n:t('nombre').value,a:t('anio').value}); 
-    t('nombre').value=t('anio').value=''; 
-} 
-function mostrar(){ 
-    t('e').innerHTML=''; 
-for(var i=0,m;m=lista[i];i++) 
-    t('e').innerHTML+=lista[i].n+'--'+lista[i].a+'<br />'; 
+function desplegar(){
+	var formLista = document.getElementById("formLista");
+	formLista.classList.remove('hidden')
+}
 
+function almacenar(){
+	var contenedorListas = document.getElementById("contenedorListas");
+	// crear los nodos
+
+	// setear atributos con setAttribute
+
+	// padres append a los hijos
+	
 }
