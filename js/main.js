@@ -1,4 +1,4 @@
-function t(x){return document.getElementById(x);} 
+function t(x){return document.getElementById(btnInicio);} 
 var lista=[]; 
 function almacenar(){ 
     lista.push({n:t('nombre').value,a:t('anio').value}); 
